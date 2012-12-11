@@ -1,0 +1,12 @@
+{
+  "name"          : "jquery.watermark",
+  "description"   : "This plugins let's you add default text on form elements that look like watermarks or work as placeholders.",
+  "url"           : "http://mario.ec/#projects:watermark",
+  "keywords"      : ["form", "watermark", "jquery", "input", "defaults"],
+  "author"        : "Mario Estrada <me@mario.ec>",
+  "dependencies"  : {
+    "jquery"  : ">=1.3.0"
+  },
+  "main"          : "jquery.form.js",
+  "version"       : "1.3.1"
+}
