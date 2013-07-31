@@ -11,7 +11,7 @@
 */
 
 (function ($) {
-    var old_ie = $.browser.msie && (!document.documentMode || $.browser.version < 8);
+    var old_ie = new RegExp(/MSIE ([0-8]+)\./).test(navigator.userAgent);
     var hard_left = 4;
     $.watermarker = function () { };
     $.extend($.watermarker, {
